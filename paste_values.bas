@@ -57,10 +57,5 @@ Sub paste_values()
             Range(zip_rng).Copy
             Worksheets(new_sheet).Range(zip_rng).PasteSpecial xlPasteValues
         End With
-    End With
-        
-    Dim counter As Integer
-    Dim column As String
-    Dim empty_string As String
-
+    End With        
 End Sub
