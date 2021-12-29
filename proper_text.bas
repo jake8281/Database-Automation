@@ -5,8 +5,8 @@ Attribute VB_Name = "Proper_Text"
 Sub text_fix()
 
 Dim name_rng As Range
-Dim name_name_cell As Range
-Dim name_name_selection As String
+Dim name_cell As Range
+Dim name_selection As String
 Dim city_rng As Range
 Dim city_name_cell As Range
 Dim city_name_selection As String
